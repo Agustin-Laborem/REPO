@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REPO — República de Propietarios Orgánicos</title>
+<meta name="description" content="Plan completo para la reconstrucción de Venezuela. Escrito por un ciudadano, auditado línea por línea, con fuentes verificables. Licencia libre.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background: #fafafa;
+  }
+  /* HEADER */
+  header {
+    position: fixed; top: 0; left: 0; right: 0;
+    background: #0d2c4f; color: #fff;
+    padding: 12px 20px;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+  header .brand {
+    font-size: 1.4em; font-weight: bold; letter-spacing: 2px;
+  }
+  header nav { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 15px; }
+  header nav a {
+    color: #cfd8e3; text-decoration: none; font-size: 0.85em;
+    font-family: Arial, sans-serif;
+  }
+  header nav a:hover { color: #f5c542; }
+  /* CONTENIDO */
+  main { max-width: 800px; margin: 0 auto; padding: 120px 20px 60px; }
+  .hero {
+    text-align: center; padding: 40px 0 30px;
+    border-bottom: 3px solid #f5c542; margin-bottom: 40px;
+  }
+  .hero h1 { font-size: 2.2em; color: #0d2c4f; letter-spacing: 1px; }
+  .hero .sub { font-size: 1.1em; color: #444; margin: 10px 0 20px; }
+  .hero .thesis {
+    font-size: 1.25em; font-style: italic; color: #0d2c4f;
+    margin: 20px 0; line-height: 1.5;
+  }
+  .btn-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 25px; }
+  .btn {
+    padding: 12px 22px; text-decoration: none; font-family: Arial, sans-serif;
+    font-size: 0.95em; border-radius: 4px; font-weight: bold;
+  }
+  .btn-primary { background: #0d2c4f; color: #fff; }
+  .btn-gold { background: #f5c542; color: #0d2c4f; }
+  .btn-outline { border: 2px solid #0d2c4f; color: #0d2c4f; }
+  .btn:hover { opacity: 0.85; }
+  /* SECCIONES */
+  h2 {
+    color: #0d2c4f; font-size: 1.6em; margin: 50px 0 15px;
+    border-bottom: 2px solid #f5c542; padding-bottom: 5px;
+  }
+  h3 { color: #0d2c4f; margin: 30px 0 10px; font-size: 1.2em; }
+  p { margin: 12px 0; text-align: justify; }
+  strong { color: #0d2c4f; }
+  /* CAJAS */
+  .caja {
+    background: #fdf6e3; border-left: 5px solid #f5c542;
+    padding: 15px 20px; margin: 20px 0; font-style: italic;
+  }
+  .caja .titulo { font-weight: bold; font-style: normal; color: #0d2c4f; }
+  .alerta {
+    background: #fbe9e7; border-left: 5px solid #c0392b;
+    padding: 15px 20px; margin: 20px 0;
+  }
+  .datos {
+    background: #eaf2f8; border-left: 5px solid #0d2c4f;
+    padding: 15px 20px; margin: 20px 0; font-family: Arial, sans-serif; font-size: 0.95em;
+  }
+  /* TABLAS */
+  table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95em; }
+  th { background: #0d2c4f; color: #fff; padding: 10px; text-align: left; }
+  td { border: 1px solid #ddd; padding: 10px; }
+  tr:nth-child(even) { background: #f4f6f8; }
+  /* PIE */
+  footer {
+    background: #0d2c4f; color: #cfd8e3; text-align: center;
+    padding: 40px 20px; margin-top: 60px; font-family: Arial, sans-serif; font-size: 0.9em;
+  }
+  footer .hash { font-family: monospace; font-size: 0.8em; word-break: break-all; }
+  footer a { color: #f5c542; }
+  .etiqueta {
+    display: inline-block; background: #f5c542; color: #0d2c4f;
+    padding: 2px 8px; font-size: 0.75em; border-radius: 3px;
+    font-family: Arial, sans-serif; font-weight: bold;
+  }
+  @media print { header { position: static; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">REPO — República de PROPIETARIOS Orgánicos</div>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#momento">El Momento</a>
+    <a href="#principios">Principios</a>
+    <a href="#plan">El Plan</a>
+    <a href="#carta">Carta Abierta #1</a>
+    <a href="#desahogate">Desahógate</a>
+    <a href="#metodo">El Método</a>
+    <a href="#fuentes">Fuentes</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section id="inicio" class="hero">
+  <h1>REPO</h1>
+  <div class="sub">República de PROPIETARIOS Orgánicos — Plan para la reconstrucción de Venezuela</div>
+  <div class="thesis">"Venezuela no le pertenece a los políticos, ni al petróleo, ni al gobierno de turno: le pertenece a los que la trabajan."</div>
+  <p><em>Escrito por un ciudadano común. Auditado línea por línea. Con cada cifra citada a fuente pública. Licencia libre: cópielo, verifíquelo, distribúyalo.</em></p>
+  <div class="btn-row">
+    <a href="01-DOCUMENTO-MAESTRO.md" class="btn btn-primary">Leer el Documento Maestro</a>
+    <a href="03-CARTA-ABIERTA-1.md" class="btn btn-gold">Carta Abierta #1 — urgente antes del 17-S</a>
+    <a href="00-METODO.md" class="btn btn-outline">Cómo se hizo (el método)</a>
+  </div>
+  <p class="datos" style="text-align:center;">
+    <a href="00-METODO.md">Método</a> ·
+    <a href="01-DOCUMENTO-MAESTRO.md">Documento Maestro</a> ·
+    <a href="02-RESUMEN-EJECUTIVO.md">Resumen Ejecutivo</a> ·
+    <a href="03-CARTA-ABIERTA-1.md">Carta Abierta #1</a>
+  </p>
+</section>
+
+<!-- ================= EL MOMENTO ================= -->
+<section id="momento">
+  <h2>El Momento — septiembre 2026</h2>
+  <div class="datos">
+    <p><strong>3 de enero.</strong> Cae Maduro. Washington declara que "gobernaría Venezuela por un período de tiempo".</p>
+    <p><strong>28 de agosto.</strong> Se firma el mayor acuerdo petrolero de la historia — 17 campos, 65 mil millones de barriles prometidos — <strong>sin mostrar el contrato.</strong> La reforma reciente de la ley eliminó la obligación de que la Asamblea revise los contratos "de interés nacional".</p>
+    <p><strong>17 de septiembre.</strong> Se desbloquea la venta de CITGO — la propiedad venezolana más valiosa en el exterior — por $5.900 millones cuando vale al menos $15.100 millones.</p>
+    <p><strong>Y las elecciones prometidas "para semanas o meses"</strong> siguen sin fecha.</p>
+  </div>
+  <p>La ventana está abierta — y los que negocian en nuestro nombre esperan que nadie mire. Este plan existe para mirar: con cifras, con fuentes, con fechas.</p>
+  <p>Los números del país hoy: salario mínimo 130 bolívares — <strong>dieciséis centavos de dólar</strong> (tasa oficial del 3-sep-2026). Pensión del IVSS: dieciséis centavos. Casi un millón de niños fuera de la escuela. Pobreza multidimensional estancada en 55% aunque los ingresos mejoran: <strong>los servicios, la vivienda y la educación no mejoran — y eso es exactamente lo que este plan construye.</strong></p>
+</section>
+
+<!-- ================= PRINCIPIOS ================= -->
+<section id="principios">
+  <h2>Los 9 principios innegociables</h2>
+  <p><em>Nueve principios innegociables. Una propuesta que viole uno, no entra — aunque sea brillante. Y aplican primero a su autor: el día que este plan esté cerca del poder, la tentación será violarlos "solo esta vez". Este documento es el contrato que su autor firmó contra sí mismo.</em></p>
+  <ol>
+    <li><strong>La riqueza es de todos</strong> — y se recibe como capital, no como dádiva. Un pueblo que recibe cheques es administrado; uno que recibe capital es dueño.</li>
+    <li><strong>El municipio decide; Caracas coordina.</strong> La decisión en el nivel más cercano capaz de tomarla. La familia precede al Estado.</li>
+    <li><strong>Propiedad distribuida:</strong> ni pocos dueños ni nadie dueño — cada familia propietaria de su casa, taller, finca o parte de lo grande.</li>
+    <li><strong>Red de seguridad para el que no puede; escalera de capital para el que puede.</strong> La generosidad mal diseñada crea los pobres que dice combatir.</li>
+    <li><strong>La ley primero.</strong> Sin justicia independiente, todo es botín con mejor branding. La lustración no es venganza: es infraestructura.</li>
+    <li><strong>La libertad como condición de la virtud.</strong> El Estado cultiva financiando y enseñando, jamás censurando. Ni censor de medios, ni registro de cultos, ni filtro cultural. La fe forzada no es fe.</li>
+    <li><strong>Impuestos reales antes que promesas de gasto.</strong> Un Estado sin impuestos propios es un mendigo con bandera.</li>
+    <li><strong>Reparar antes que construir.</strong> Guri antes que utopías. Cada capítulo abre con el inventario de lo que existe — construir lo nuevo mientras lo viejo colapsa es el vicio que hundió a media América Latina.</li>
+    <li><strong>El test del sucesor.</strong> Toda institución se diseña como si la administrara un enemigo — porque algún día lo será. El mecanismo que hoy construyes contra tus enemigos es el instrumento de los enemigos de mañana.</li>
+  </ol>
+</section>
+
+<!-- ================= EL PLAN ================= -->
+<section id="plan">
+  <h2>El Plan Completo</h2>
+  <p>El documento maestro tiene las Partes 0–VIII y los anexos A–N. Aquí el mapa — cada capítulo responde las cuatro preguntas: ¿quién paga? ¿quién ejecuta? ¿qué pasa si falla? ¿cómo se mide?</p>
+
+  <h3>La transición (Parte II)</h3>
+  <p>El mapa de poder real — quién quiere qué y de qué vive cada actor. Los cuatro escenarios de la transición. La reorganización militar con retiros dignos y lustración con debido proceso. El fin del "pesca": la conscripción que solo pagaban los pobres. Y el desmontaje del poder territorial en cuatro pasos: amnistía a la base, guillotina financiera a los financistas, cerco sin disparos a los líderes, reconciliación territorial. La policía nueva con cámaras encendidas las 24 horas — la honestidad como el mejor negocio.</p>
+
+  <h3>El Estado y la política (Parte III)</h3>
+  <p>La ruta anti-2017 para la nueva constitución. La Cláusula Guzmán Blanco: ningún poder nacional recentraliza sin referéndum en los territorios afectados. La justicia con presupuesto blindado y traslado automático por tipo penal. La función pública por concurso. Y <strong>La Voz</strong>: denuncias con seguimiento público, reclamo con un clic, y el qui tam — quien denuncia fraude comprobado cobra 15-30% de lo recuperado. La valentía deja de ser requisito del sistema.</p>
+
+  <h3>La economía de propietarios (Parte IV)</h3>
+  <p>El impuesto "ni lava ni presta la batea": el predial progresivo que hace caro el latifundio ocioso sin expropiar a nadie, y financia al municipio. El fondo soberano con triple candado y custodia en jurisdicciones múltiples: <strong>cada niño nace con un capital suyo</strong> que espera hasta los 16. La dollarización reconocida con prohibición constitucional del dinero programable. Los hidrocarburos bajo los siete criterios: texto público, ratificación por gobierno electo, rentas al fondo auditable. Energía: Guri primero. Y la Oficina del Inventor: el garaje de todo un país.</p>
+
+  <h3>Capital humano (Parte V)</h3>
+  <p>El fin del salario de mentira: todo ingreso computa — el Estado aplica primero. Bonos de Servicio para los héroes públicos: la deuda salarial histórica pagada en patrimonio. Pensión como derecho: $0,16 hoy, cero carnet mañana. Escuelas técnicas en cada barrio — la maestra que gana más en su patio que en el aula es la prueba de que el modelo está roto. La diáspora como activo: voto exterior, recepción digna de los deportados, las recetas de los que ya vieron cómo funciona el mundo. Y el capítulo que nadie escribe: <strong>proteger a los malandros desde que son niños, para que nunca lo sean.</strong></p>
+
+  <h3>Territorio y soberanía (Parte VI)</h3>
+  <p>El Esequibo blindado por supermayoría. Consulta indígena vinculante en el Arco Minero. La industria de defensa con la línea roja: jamás para represión interna. El transporte, la pesca con cadena de frío — el pescador que duplica su ingreso sin pescar más — y la cancillería que factura las fechas del padrino.</p>
+
+  <h3>La hoja de ruta (Partes VII-VIII)</h3>
+  <p>Cuatro fases con compuertas: si lo anterior no se cumplió, no se avanza. Y la matriz de riesgos con los diez peligros declarados — incluido el mayor: que el mecanismo que se construya para defender el plan lo herede el adversario. El plan no promete el cheque imposible: promete lo que se puede sostener.</p>
+</section>
+
+<!-- ================= CARTA ABIERTA ================= -->
+<section id="carta">
+  <h2>Carta Abierta #1 — Vender la casa de todos, sin mostrar el contrato</h2>
+  <div class="alerta">
+    <p><strong>Existe un acuerdo petrolero entre el gobierno de Estados Unidos y el gobierno interino de Venezuela que compromete 17 campos, 65 mil millones de barriles y 25 años de la renta del país — y nadie ha visto el contrato.</strong> Y hay una segunda operación: CITGO, la propiedad venezolana más valiosa en el exterior, está a punto de venderse por un tercio de su valor. El 17 de septiembre — tres días después de la publicación de este plan — se desbloquea la venta.</p>
+  </div>
+  <p>Lo que sabemos del acuerdo: el operador elegido no es una gran petrolera con historial — es una compañía controlada por un empresario venezolano cuya prensa internacional lo asocia con los casos Derwick y Odebrecht, con el Pentágono como socio al 35% vía warrants a precio simbólico, negociado por Defensa y Estado <em>sin</em> el Departamento de Energía. Cinco campos le fueron quitados a compañías chinas y una a una rusa: el mapa petrolero no se está abriendo — se está reasignando. Venezuela recibiría $19 por barril — impuestos calificados de "increíblemente bajos" por el principal experto académico del tema (Baker Institute).</p>
+  <p>Y CITGO: la quinta refinería independiente de EE.UU., 829 mil barriles de capacidad, generando $3.600 millones al año, invirtiendo $310 millones en expandirse — <strong>subastada por $5.900 millones cuando vale al menos $15.100 millones.</strong> La diferencia es la mayor pérdida de patrimonio venezolano en el exterior en la historia moderna.</p>
+  <p><strong>Lo que pedimos — cuatro cosas que nadie puede rechazar sin explicar por qué:</strong> (1) que el contrato se publique completo y que no entre en vigor hasta ratificarlo un gobierno electo — los contratos duraderos se hacen con legitimidad, no con plazos largos; (2) que CITGO no se venda antes de las elecciones y entre al arreglo integral de la deuda de $150 mil millones; (3) transparencia total de los fondos — más de $13 mil millones recaudados este año, ¿en qué están?; (4) que los venezolanos sepamos — aquí, y los residentes en EE.UU. con su voto en el Congreso.</p>
+  <p><strong>La pregunta es una sola: ¿quién le mostró el contrato al dueño de la casa? El dueño somos nosotros. Muéstrenlo.</strong></p>
+  <p><em>La carta completa, con todas las fuentes citadas y las tres confirmaciones oficiales del expediente, está en el Documento Maestro (Anexo I). Firmada por agustin-laborem, 14 de septiembre de 2026 — tres días antes de la ventana.</em></p>
+</section>
+
+<!-- ================= DESAHOGATE ================= -->
+<section id="desahogate">
+  <h2>Desahógate con REPO</h2>
+  <p>Este plan fue escrito desde UNA ciudad, por UN venezolano. El país tiene 30 millones de experiencias que ninguna encuesta captura: <strong>tu grifo que llega cada 9 días, tu liquidación de $3, tu negocio informal, tu esquina, tu colegio, tu jefe, tu hospitalizedito</strong> — cada experiencia vivida es un dato que este plan necesita.</p>
+  <div class="caja">
+    <span class="titulo">Cómo funciona:</span> cuéntanos lo que viviste — en tus palabras, sin miedo. Una conversación guiada te ayudará a sacar lo que vale: los detalles que ningún informe tiene. Tu aporte entra a los dos canales: la verdad vivida (el diagnóstico) o la propuesta (el cómo). Y si lo que quieres es decir que algo del plan no servirá — también: cada objeción documentada mejora el documento. <strong>El país entero es la sala de redacción.</strong>
+  </div>
+  <p style="text-align:center; margin-top:30px;"><a href="#" class="btn btn-gold" style="font-size:1.1em;" aria-disabled="true">Desahógate con REPO — Próximamente</a></p>
+</section>
+
+<!-- ================= METODO ================= -->
+<section id="metodo">
+  <h2>El Método — Cómo se hizo este documento</h2>
+  <p>Este plan fue escrito por un humano con ayuda de inteligencia artificial — y esa confesión genera una pregunta legítima: <strong>¿cómo confiar en un documento producido con máquinas que inventan datos con el mismo tono con que dicen verdades?</strong></p>
+  <p>La respuesta no fue menos IA: fue <strong>auditarla línea por línea, documentar los errores encontrados, y publicar el método completo</strong> — las 22 reglas del trabajo humano-IA que este proyecto desarrolló en la práctica: el humano dirige, la IA estructura, el terreno corrige. Todo dato lleva su fuente o su marca de verificación pendiente. Toda invención detectada fue documentada (hubo varias — incluyendo un material geológico que no existe y un resultado deportivo mal atribuido). Toda decisión del curador quedó registrada.</p>
+  <div class="caja">
+    <span class="titulo">La tesis del método:</span> un ciudadano con método puede producir análisis de nivel institucional sin institución detrás. Las herramientas están publicadas bajo la misma licencia libre — para que cualquier venezolano, y cualquier país, replique este proceso en su propio tema.
+  </div>
+  <p>El método completo (las 22 reglas, organizadas en 6 bloques: rol, honestidad, verificación, estructura, corrección y límites) está en <a href="00-METODO.md">00-METODO.md</a>.</p>
+</section>
+
+<!-- ================= FUENTES ================= -->
+<section id="fuentes">
+  <h2>Fuentes y Verificación</h2>
+  <p>Este documento se construyó con verificación en tres niveles. Las fuentes principales:</p>
+  <ul>
+    <li><strong>Reuters</strong> — la operación de enero (3-ene-2026); el acuerdo petrolero del 28-A y su estructura NABEP (31-ago, 1-sep); CITGO y su valuación disputada (4-may, 14-may-2026).</li>
+    <li><strong>USGS</strong> — el doblete sísmico de junio: M7.2 y M7.5, 39 segundos de separación, deslizamientos documentados.</li>
+    <li><strong>ENCOVI 2025, IIES-UCAB</strong> — pobreza multidimensional 55%, informalidad 61%, educación, salud, migración y retorno.</li>
+    <li><strong>OFAC / Tesoro de EE.UU.</strong> — General License 5Y (3-ago-2026, efectiva 17-sep-2026), texto oficial.</li>
+    <li><strong>Foro Penal</strong> — presos políticos: 1.046 liberados verificados oficialmente; más de 390 aún presos.</li>
+    <li><strong>R4V / UNHCR</strong> — migración: casi 8 millones; el retorno como expulsión.</li>
+    <li><strong>PMA / FAO / Cáritas</strong> — inseguridad alimentaria: 15% necesita asistencia urgente.</li>
+    <li><strong>TRAC (Syracuse)</strong> — deportaciones desde EE.UU.: 10.939 venezolanos en junio solo.</li>
+    <li><strong>BBC News Mundo</strong> — el vuelo 164 y la recepción de los deportados.</li>
+    <li><strong>GLIAG Intelligence</strong> — auditoría técnica independiente del acuerdo (geólogo certificado AAPG).</li>
+    <li><strong>Press release CITGO</strong> — capacidad 829K b/d, inversión $310M (1-sep-2026).</li>
+    <li><strong>nobelprize.org</strong> — María Corina Machado, Nobel de la Paz 2025.</li>
+  </ul>
+  <p>El estado de verificación que acompaña al lanzamiento está documentado dentro del Documento Maestro. La consolidación ampliada de fuentes quedará para una fase posterior. <strong>Si encuentras un error, eres bienvenido a señalarlo</strong> — el documento mejora con cada corrección documentada.</p>
+</section>
+
+</main>
+
+<footer>
+  <p><strong>REPO — República de PROPIETARIOS Orgánicos</strong></p>
+  <p>Escrito por agustin-laborem · 14 de septiembre de 2026 · Venezuela</p>
+  <p>Licencia CC BY-SA 4.0: cópielo, verifíquelo, distribúyelo — los derivados también son libres.</p>
+  <p class="hash">Documento Maestro SHA-256: 557fb9c5f27d7d0988c37d8d2fd3597ae774b3628f4c1ffd3c9dba7869b7eff7</p>
+  <p><em>"El dueño de la casa somos nosotros. Muéstrenlo."</em></p>
+</footer>
+
+</body>
+</html>
